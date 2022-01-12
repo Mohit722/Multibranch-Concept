@@ -1,9 +1,9 @@
 pipeline{
   agent any
   stages{
-    stage('Main exe'){
+    stage('Dev exe'){
       steps{
-        echo "this is main deployment"
+        echo "this is dev deployment"
       }
     }
   }
